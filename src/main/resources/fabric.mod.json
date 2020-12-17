@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "dimensionupdatefixer",
   "version": "${version}",
-
   "name": "Dimension Update Fixer",
   "description": "A simple mod that unyeets the Nether and End when a world is upgraded between Minecraft versions with dimension mods installed",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "",
     "sources": "https://github.com/Heart-of-the-Machine/dimension-update-fixer"
   },
-
   "license": "MIT",
   "icon": "assets/dimensionupdatefixer/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -24,7 +21,6 @@
   "mixins": [
     "dimensionupdatefixer.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.9.2",
     "fabric": "*",
