@@ -15,6 +15,9 @@
   "icon": "assets/dimensionupdatefixer/icon.png",
   "environment": "*",
   "entrypoints": {
+    "preLaunch": [
+      "com.github.hotm.dimensionupdatefixer.DimensionUpdateFixerPreLaunch"
+    ],
     "main": [
     ]
   },
