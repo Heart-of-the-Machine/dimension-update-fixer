@@ -9,7 +9,8 @@
     "CompoundListAccessor",
     "ProductAccessor",
     "TagAccessor",
-    "TaggedChoiceAccessor"
+    "TaggedChoiceAccessor",
+    "UnboundedMapCodecMixin"
   ],
   "client": [
   ],

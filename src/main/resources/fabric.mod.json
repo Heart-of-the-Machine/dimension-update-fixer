@@ -3,9 +3,10 @@
   "id": "dimensionupdatefixer",
   "version": "${version}",
   "name": "Dimension Update Fixer",
-  "description": "A simple mod that unyeets the Nether and End when a world is upgraded between Minecraft versions with dimension mods installed",
+  "description": "A simple mod that unyeets the Nether and End when a world is loaded without a dimension or is upgraded between Minecraft versions with dimension mods installed",
   "authors": [
-    "Kneelawk"
+    "Kneelawk",
+    "alcatrazEscapee"
   ],
   "contact": {
     "homepage": "",
