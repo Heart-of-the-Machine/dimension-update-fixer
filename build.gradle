@@ -21,11 +21,9 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+//    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    modRuntime("io.github.prospector:modmenu:1.14.9+build.14") {
-        exclude group: "net.fabricmc.fabric-api"
-    }
+    modRuntime("io.github.prospector:modmenu:1.14.9+build.14")
 }
 
 processResources {
@@ -100,9 +98,9 @@ if (System.getenv("CURSE_API_KEY") != null) {
             addGameVersion 'Java 8'
             addGameVersion 'Fabric'
             mainArtifact(remapJar)
-            relations {
-                requiredDependency "fabric-api"
-            }
+//            relations {
+//                requiredDependency "fabric-api"
+//            }
         }
         options {
             forgeGradleIntegration = false
